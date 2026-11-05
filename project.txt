@@ -1,0 +1,49 @@
+Rag based chatbot for wordpress sites
+This is a rag based chat bot, done by me entirely. 
+customer can register on the dashboard and enter their wordpress site.
+then automatically systme will fetch all the data from that site and provide script tag with a key.
+user can this as a widget on their website. then chatbot will intergrated to their website,
+anyone visit to their website can ask anything from the bot and bot will provide answers from that web content.
+claude is the LLM, voyage ai, qdrant db, FLask backend, AWS - sqs, sns, bedrock is used.PostgreSQL
+
+Application reading system.
+system is capable of reading any kind of unstructured document with handwritten text(English)
+system can identify question field , answer field sepertely and provide complete extracted data format with question and answer.
+user can manually edit the extracted data, search them, delete them or add new fields.
+full annonated document is aslo visible to the user.
+also user can add rules to rule engine. then system will evaluate that document according to the rules and provide a report mentioned what rules passed and failed.
+LLM is claude, used AWS bedrock, Yolo Object detection, Nextjs and Flask PostgreSQL
+
+Fully local RAG model
+chat system that can be customize to any sector like banks, legal operation etc which need private chat envireonment.
+run fully local on user computer without internet access. personal data security is 100%. Any document can be uploaded and prompt through all the docuements.
+document inventory can be managed manually, system keeps learn thourgh each prompt and respond. user can rate each respond from the system.
+Ollama, react, flask, postgres, chromaDB
+
+https://bruno-simon.com/
+https://www.jesse-zhou.com/
+
+NUTRIENT DEFICIENCY DETECTION SYSTEM FOR BLACK PEPPER LEAF USING
+MACHINE LEARNING
+This web based system is let user to upload an image of black pepper leaf and system will
+identify whether uploaded image is a black pepper or not. If it is a black pepper leaf then
+system will identify the deficiency and predict the solutions to mitigate deficiency.
+Machine learning models were implemented using Python. User interfaces were
+implemented using HTML, CSS and Java Script. Backend was implemented using Flask.
+Flask, HTML,CSS, Java Script, Python :
+Tensorflow
+
+STUDENT DROPOUT PREDICTION SYSTEM
+Developed a system capable of predicting whether a newly registered student will
+graduate, dropout, or stay enrolled by analyzing input data from the student through an
+interface built with HTML, CSS, and JavaScript. The backend was implemented using Flask.
+Flask, HTML,CSS, Java Script, Python :
+Tensorflow
+
+AI POWERED HEALTH SYMPTOM CHECKER
+Patient has to input symptoms through a HTML interface and system will divide those
+(Symptoms) into keywords. Then send them into pre-trained ML model using Flask and ML
+model do the prediction. After that predicted disease will send to frontend. In frontend
+system will do some web scraping about disease and give all the relevant details and
+medication about disease.
+Flask, HTML,CSS, Java Script, Python : Tensorflow
